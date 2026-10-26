@@ -47,3 +47,8 @@ def smart_temperature(value):
         f"Fahrenheit: {fahrenheit}\n"
         f"Status: {status}"
     )
+
+def slug_maker(title):
+    text = str(title)
+    cleaned = text.lower().replace(",", "").replace(".", "")
+    return "-".join(cleaned.split())
