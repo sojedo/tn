@@ -52,3 +52,7 @@ def slug_maker(title):
     text = str(title)
     cleaned = text.lower().replace(",", "").replace(".", "")
     return "-".join(cleaned.split())
+
+
+
+    Dapper@1122
